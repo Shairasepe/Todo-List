@@ -1,0 +1,131 @@
+<html lang="en">
+
+  <head>
+
+
+
+    <title>To Do List</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <!-- Navigation -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">To Do List</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Home</a>
+            </li>
+           
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+               Todo
+              </a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
+                <a class="dropdown-item" href="create.html">Create Notes</a>
+                <a class="dropdown-item" href="edit.html">Edit Notes</a>
+                <a class="dropdown-item" href="search.html">Search Notes</a>
+                <a class="dropdown-item" href="delete.html">Delete Notes</a>
+                
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header>
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <!-- Slide One - Set the background image for this slide in the line below -->
+          <div class="carousel-item active" style="background-image: url('img/img1.jpg')">
+            <div class="carousel-caption d-none d-md-block">
+                <h1>Create new Note</h1>
+                <br>
+                <button type="button" class="btn btn-default" onclick="location.href='create.html';">Create</button>
+            </div>
+          </div>
+          <!-- Slide Two - Set the background image for this slide in the line below -->
+          <div class="carousel-item" style="background-image: url('img/img2.jpg')">
+            <div class="carousel-caption d-none d-md-block">
+              <h1>Edit Note</h1>
+                <br>
+                <button type="button" class="btn btn-default" onclick="location.href='edit.html';">Edit</button>
+            </div>
+          </div>
+            
+          <!-- Slide Three - Set the background image for this slide in the line below -->
+            <div class="carousel-item" style="background-image: url('img/img4.jpeg')">
+            <div class="carousel-caption d-none d-md-block">
+            <h1>Search Note</h1>
+                <br>
+                <button type="button" class="btn btn-default" onclick="location.href='search.html';">Search</button>
+            </div>
+          </div>
+          <div class="carousel-item" style="background-image: url('img/img3.jpeg')">
+            <div class="carousel-caption d-none d-md-block">
+             <h1>Delete Note</h1>
+                <br>
+                <button type="button" class="btn btn-default" onclick="location.href='delete.html';">Delete</button>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </header>
+
+    <!-- Page Content -->
+    <section class="py-5">
+      <div class="container">
+        <h1>To DO List</h1>
+          <p>To use your list, simply work your way through it in order, dealing with the A priority tasks first, then the Bs, then the Cs, and so on. As you complete tasks, tick them off or strike them through.</p>
+
+          <p>What you put on your list and how you use it will depend on your situation. For instance, if you're in a sales-type role, a good way to motivate yourself is to keep your list relatively short, and aim to complete it every day.</p>
+
+          <p>But in you're in an operational role, or if tasks are large or dependent on too many other people, then it may be better to focus on a longer-term list, and "chip away" at it day-by-day.</p>
+
+          <p>Many people find it helpful to spend, say, 10 minutes at the end of the day, organizing tasks on their list for the next day.
+          </p>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2018</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="jquery/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
