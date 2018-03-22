@@ -1,1 +1,3 @@
 # Todo-List
+
+A list of tasks that need to be completed, typically organized in order of priority. To use your list, simply work your way through it in order, dealing with the A priority tasks first, then the Bs, then the Cs, and so on. As you complete tasks, tick them off or strike them through. What you put on your list and how you use it will depend on your situation. For instance, if you're in a sales-type role, a good way to motivate yourself is to keep your list relatively short, and aim to complete it every day. Many people find it helpful to spend, help you organize tasks on  list for the next day.
